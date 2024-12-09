@@ -1,0 +1,18 @@
+.todo-page-panel-filter {
+	display: flex;
+
+	gap: 10px;
+
+	&__button {
+		cursor: pointer;
+		color: white;
+		padding: 8px 25px;
+		border-radius: 6px;
+
+
+		&--active {
+			background: white;
+			color: #1c1f32;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.header {
+	padding: 20px 0;
+
+	font-size: 32px;
+	font-weight: bold;
+	color: #32324b;
+	background: white;
+
+	&__inner-container {
+		margin: auto;
+		max-width: 800px;
+	}
+}

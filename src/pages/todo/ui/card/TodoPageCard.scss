@@ -1,0 +1,17 @@
+.todo-page-card {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	padding: 10px 10px;
+	border-radius: 5px;
+
+	font-family: 'Inter', sans-serif;
+	color: white;
+
+	background: #1c1f32;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.19);
+
+	cursor: pointer;
+	user-select: none;
+}
