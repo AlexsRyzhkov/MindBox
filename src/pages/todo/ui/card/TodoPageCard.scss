@@ -14,4 +14,8 @@
 
 	cursor: pointer;
 	user-select: none;
+
+	& p {
+		overflow-wrap: anywhere;
+	}
 }
