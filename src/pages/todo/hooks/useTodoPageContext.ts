@@ -6,7 +6,7 @@ export const useTodoPageContext = () => {
 	const context = useContext(TodoPageContext);
 
 	if (!context) {
-		throw new Error('useCounter must be used within a todoProvider');
+		throw new Error('useTodoPageContext must be used within a todoProvider');
 	}
 
 	return context;
